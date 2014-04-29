@@ -2,7 +2,7 @@
 PROMPT_COMMAND=_prompt_command
 
 function _prompt_command() {
-PS1="\[\e[0;36m\]\u\[\e[00m\]@\[\e[0;32m\]Vidia-PC\[\e[00m\]::\[\e[0;34m\]\W \[\e[0;35m\]\!\[\e[00m\]$(gitify)\[\e[00m\] \$ "
+PS1="\[\e[0;36m\]\u\[\e[00m\]@\[\e[0;32m\]`shorthostname`\[\e[00m\]::\[\e[0;34m\]\W \[\e[0;35m\]\!\[\e[00m\]$(gitify)\[\e[00m\] \$ "
 }
 
 function gitify {
