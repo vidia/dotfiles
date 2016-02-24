@@ -4,7 +4,7 @@ antigen use oh-my-zsh
 antigen bundle pip
 antigen bundle djui/alias-tips
 # This might get dropped. It can get a little verbose. 
-antigen bundle dbkaplun/smart-cd
+# antigen bundle dbkaplun/smart-cd
 
 antigen bundle <<EOBUNDLES
     command-not-found
@@ -22,6 +22,7 @@ antigen bundle <<EOBUNDLES
     last-working-dir
     sublime
     thefuck
+    autojump
 EOBUNDLES
 
 antigen bundle zsh-users/zsh-syntax-highlighting
