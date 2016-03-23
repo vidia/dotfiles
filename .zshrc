@@ -3,31 +3,29 @@ source ~/git/dotfiles/antigen/antigen.zsh
 antigen use oh-my-zsh
 antigen bundle pip
 antigen bundle djui/alias-tips
-# This might get dropped. It can get a little verbose. 
+# This might get dropped. It can get a little verbose.
 # antigen bundle dbkaplun/smart-cd
-
-antigen bundle <<EOBUNDLES
-    command-not-found
-    heroku
-    aws
-    brew
-    colored-man-pages
-    common-aliases
-    docker
-    emoji
-    github
-    git
-    gitignore
-    gradle
-    last-working-dir
-    sublime
-    thefuck
-    autojump
-EOBUNDLES
-
+antigen bundle command-not-found
+antigen bundle heroku
+antigen bundle aws
+antigen bundle brew
+antigen bundle colored-man-pages
+antigen bundle common-aliases
+antigen bundle docker
+antigen bundle emoji
+antigen bundle github
+antigen bundle git
+antigen bundle gitignore
+antigen bundle gradle
+antigen bundle last-working-dir
+antigen bundle sublime
+antigen bundle thefuck
+antigen bundle autojump
+antigen bundle tmux
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen theme agnoster
 
 antigen apply
 
-source ~/.zsh-profile 
+DEFAULT_USER=david@Davids-MacBook-Pro
+source ~/.zsh-profile
