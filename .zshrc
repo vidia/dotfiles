@@ -21,7 +21,7 @@ antigen bundle last-working-dir
 antigen bundle sublime
 antigen bundle thefuck
 antigen bundle autojump
-antigen bundle tmux
+#antigen bundle tmux
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen theme agnoster
 
